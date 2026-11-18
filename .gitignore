@@ -1,5 +1,17 @@
+# Python virtual environment
 .venv/
+venv/
+
+# PyCharm
 .idea/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Environment variables
 .env
+
+# Build files
+build/
+dist/
