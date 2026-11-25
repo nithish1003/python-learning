@@ -77,3 +77,59 @@ else:
     print("Not eligible for bonus")
     print(f"Monthly salary: {monthly_salary}")
     print(f"Total salary: {monthly_salary}")
+
+    # Customer
+    # name
+    #
+    # Order
+    # amount
+    #
+    # Membership
+    # type(gold, silver, regular)
+    #
+    # Payment
+    # status(success or failed)
+
+# customer=input("Enter customer name: ")
+# order_amount=int(input("Enter order amount: "))
+# membership_type=input("Enter membership type: gold,silver,regular ")
+# payment_status=input("Enter payment status: failed or succeeded ")
+# if membership_type == "gold" and order_amount>=5000:
+#     discount=order_amount*20/100
+#     final_amount=order_amount-discount
+#     print(f'customer: {customer}')
+#     print(f'order_amount: {order_amount}')
+#     print(f'discount: {discount}')
+#     print(f'final_amount: {final_amount}')
+#     print(f'payment_status: {payment_status}')
+# elif membership_type == "gold" and order_amount<5000:
+#     discount=order_amount*10/100
+#     final_amount=order_amount-discount
+#     print(f'customer: {customer}')
+#     print(f'order_amount: {order_amount}')
+#     print(f'discount: {discount}')
+#     print(f'final_amount: {final_amount}')
+#     print(f'payment_status: {payment_status}')
+# elif membership_type == "silver" and order_amount>=5000:
+#     discount=order_amount*15/100
+#     final_amount=order_amount-discount
+#     print(f'customer: {customer}')
+#     print(f'order_amount: {order_amount}')
+#     print(f'discount: {discount}')
+#     print(f'final_amount: {final_amount}')
+#     print(f'payment_status: {payment_status}')
+# elif membership_type == "silver" and order_amount<5000:
+#     discount=order_amount*5/100
+#     final_amount=order_amount-discount
+#     print(f'customer: {customer}')
+#     print(f'order_amount: {order_amount}')
+#     print(f'discount: {discount}')
+#     print(f'final_amount: {final_amount}')
+#     print(f'payment_status: {payment_status}')
+# elif membership_type == "regular":
+#     print(f"customer: {customer}")
+#     print(f"order_amount: {order_amount}")
+#     print(f"discount no ")
+#     print(f"final_amount: {final_amount}")
+#     print(f"payment_status: {payment_status}")
+
